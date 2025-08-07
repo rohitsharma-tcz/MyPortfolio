@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rohit Sharma - Professional IT Project Manager Portfolio. Specializing in Agile, Scrum, and delivering high-impact projects.">
+    <meta name="keywords" content="Rohit Sharma, Project Manager, Portfolio, Agile, Scrum, IT Project Management, Noida, Delhi">
+    <title>Rohit Sharma | IT Project Manager</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://i.ibb.co/Q3dYksnN/fav.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="main-header">
+        <nav>
+            <a href="#hero" class="nav-logo">RS</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="mobile-menu-button" class="mobile-menu-button" aria-label="Open Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+    <div id="mobile-menu" class="mobile-menu">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-content">
+                <h1 class="fade-in">Rohit Sharma</h1>
+                <p class="fade-in">IT Project Manager | Team Leader | Agile Enthusiast</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="cta-button primary fade-in">Let's Work Together</a>
+                    <a href="https://drive.google.com/file/d/1d2Q1_cJlmvfFtM4zfr98vCINtuqw8sqm/view?usp=sharing" class="cta-button secondary fade-in" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down-indicator">
+                <div class="mouse"></div>
+            </a>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="content-section">
+            <h2 class="section-title animate-on-scroll">About Me</h2>
+            <div class="about-container">
+                <div class="about-image animate-on-scroll">
+                    <img src="https://i.ibb.co/zh1JRwbT/profile.png" alt="Rohit Sharma Profile Picture" class="profile-pic">
+                </div>
+                <div class="about-text animate-on-scroll">
+                    <h3>Profile Summary</h3>
+                    <p>Result-oriented project team leader with nearly 5.6+ years of experience in project and product management, including the development, implementation, and support of complex infrastructures for rapidly growing startups. A fast and eager learner, I am detail-oriented and adapt quickly to changing project requirements to meet business goals.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Timeline -->
+        <section id="experience" class="content-section">
+            <h2 class="section-title animate-on-scroll">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">08/2023 - PRESENT</div>
+                    <div class="timeline-content animate-on-scroll">
+                        <h3>IT Project Manager</h3>
+                        <h4>Mobulous Technology | Noida, India</h4>
+                        <p>Collaborating with stakeholders to finalize system requirements, creating project plans, and leading daily stand-ups and client demos to ensure transparent communication and progress.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">01/2020 - 07/2023</div>
+                    <div class="timeline-content animate-on-scroll">
+                        <h3>Sr. Project Coordinator Cum Android Developer</h3>
+                        <h4>Apporio Infolabs | Gurugram, India</h4>
+                        <p>Led seamless coordination for multiple initiatives, leveraging 3.5+ years of expertise. Managed cross-functional teams and cultivated strong client relationships, ensuring on-time project delivery.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">06/2019 - 07/2019</div>
+                    <div class="timeline-content animate-on-scroll">
+                        <h3>Intern</h3>
+                        <h4>Smart Programming | Mohali, India</h4>
+                        <p>Learned Java programming fundamentals and contributed to live team projects, gaining skills in debugging, problem-solving, and database connectivity.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Project Portfolio Section -->
+        <section id="projects" class="content-section">
+            <h2 class="section-title animate-on-scroll">Featured Projects</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-card animate-on-scroll" data-modal-target="modal1">
+                    <img src="https://placehold.co/600x400/1a202c/14b8a6?text=Apporio+Taxi&font=poppins" alt="Apporio Taxi Project">
+                    <div class="card-overlay"><h3>Apporio Taxi</h3><p>White-Label Taxi Solution</p></div>
+                </div>
+                <div class="portfolio-card animate-on-scroll" data-modal-target="modal2">
+                    <img src="https://placehold.co/600x400/1a202c/14b8a6?text=Apporio+Super+App&font=poppins" alt="Apporio Super App Project">
+                    <div class="card-overlay"><h3>Apporio Super App</h3><p>Multi-Service Platform</p></div>
+                </div>
+                <div class="portfolio-card animate-on-scroll" data-modal-target="modal3">
+                    <img src="https://placehold.co/600x400/1a202c/14b8a6?text=iShapp&font=poppins" alt="iShapp Project">
+                    <div class="card-overlay"><h3>iShapp</h3><p>Social Commerce App</p></div>
+                </div>
+                <div class="portfolio-card animate-on-scroll" data-modal-target="modal4">
+                    <img src="https://placehold.co/600x400/1a202c/14b8a6?text=iLine.ai&font=poppins" alt="iLine.ai Project">
+                    <div class="card-overlay"><h3>iLine.ai</h3><p>AI Solutions Platform</p></div>
+                </div>
+                <div class="portfolio-card animate-on-scroll" data-modal-target="modal5">
+                    <img src="https://placehold.co/600x400/1a202c/14b8a6?text=Apporio+Food&font=poppins" alt="Apporio Food Delivery Project">
+                    <div class="card-overlay"><h3>Apporio Food Delivery</h3><p>Restaurant Delivery Solution</p></div>
+                </div>
+                <div class="portfolio-card animate-on-scroll" data-modal-target="modal6">
+                    <img src="https://placehold.co/600x400/1a202c/14b8a6?text=Apporio+Grocery&font=poppins" alt="Apporio Grocery Project">
+                    <div class="card-overlay"><h3>Apporio Grocery</h3><p>E-commerce Grocery App</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="content-section">
+            <h2 class="section-title animate-on-scroll">Technical Skills</h2>
+            <div class="skills-showcase-grid">
+                <div class="skill-category animate-on-scroll"><i class="fas fa-sitemap"></i><h3>Methodologies</h3><p>Scrum, Agile, Waterfall, SDLC, Sprint Planning</p></div>
+                <div class="skill-category animate-on-scroll"><i class="fas fa-tools"></i><h3>Management Tools</h3><p>Jira, Trello, Basecamp, Asana, Excel Sheet</p></div>
+                <div class="skill-category animate-on-scroll"><i class="fas fa-cogs"></i><h3>Core Competencies</h3><p>Project Planning, Change Management, Risk Assessment, Budget Management</p></div>
+                <div class="skill-category animate-on-scroll"><i class="fas fa-code-branch"></i><h3>Code Management</h3><p>Git, GitLab, Sourcetree, Bitbucket</p></div>
+                <div class="skill-category animate-on-scroll"><i class="fas fa-database"></i><h3>Databases & Cloud</h3><p>AWS, Mongo DB, SQL, MS Access, Azure</p></div>
+                <div class="skill-category animate-on-scroll"><i class="fas fa-check-circle"></i><h3>Quality & Testing</h3><p>Manual Testing, Quality Assurance, Documentation</p></div>
+            </div>
+        </section>
+        
+        <!-- Strengths Section -->
+        <section id="strengths" class="content-section">
+             <h2 class="section-title animate-on-scroll">Key Strengths</h2>
+             <div class="strengths-grid">
+                 <div class="strength-card animate-on-scroll"><div class="strength-icon"><i class="fas fa-tasks"></i></div><h3>Project Planning</h3><p>Managed project plans resulting in a 15% increase in delivery efficiency.</p></div>
+                 <div class="strength-card animate-on-scroll"><div class="strength-icon"><i class="fas fa-handshake"></i></div><h3>Client Relationships</h3><p>Maintained strong client relationships, resulting in a 90% client retention rate.</p></div>
+                 <div class="strength-card animate-on-scroll"><div class="strength-icon"><i class="fas fa-chart-line"></i></div><h3>Upselling & Cross-Selling</h3><p>Enhanced sales through strategic upselling, elevating profits and client contentment.</p></div>
+             </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="content-section">
+            <h2 class="section-title animate-on-scroll">Education</h2>
+            <div class="education-container">
+                <div class="education-item animate-on-scroll"><i class="fas fa-graduation-cap"></i><h3>Master of Business Administration in IT</h3><p>Lovely Professional University | 2022 - 2024</p></div>
+                <div class="education-item animate-on-scroll"><i class="fas fa-laptop-code"></i><h3>Bachelor of Technology in Computer Science</h3><p>Himachal Pradesh Technical University | 2016 - 2020</p></div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="content-section">
+            <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+            <p class="contact-subtitle animate-on-scroll">Have an opportunity or project in mind? I'd love to hear from you. I'm currently based in India and open to new opportunities.</p>
+            <div class="contact-details-container">
+                <a href="mailto:rohitsharmar877@gmail.com" class="contact-card animate-on-scroll">
+                    <i class="fas fa-envelope"></i>
+                    <span>rohitsharmar877@gmail.com</span>
+                </a>
+                <a href="https://wa.me/917018402105" target="_blank" class="contact-card animate-on-scroll">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>+91 7018402105</span>
+                </a>
+                <a href="tel:+917018402105" class="contact-card animate-on-scroll">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 7018402105</span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- Portfolio Modals -->
+    <div class="modal" id="modal1"><div class="modal-content"><span class="close-button">&times;</span><h2>Apporio Taxi</h2><p><strong>Overview:</strong> A comprehensive, white-label taxi booking solution designed to empower entrepreneurs to launch their own Uber-like service. The platform includes robust, feature-rich native applications for both users and drivers, ensuring a seamless experience from booking to trip completion.</p><div class="modal-links"><a href="https://play.google.com/store/apps/details?id=com.apporio.demotaxiapp" target="_blank" class="modal-link-button">User App</a><a href="https://play.google.com/store/apps/details?id=com.apporio.demotaxiappdriver&hl=en_IN" target="_blank" class="modal-link-button">Driver App</a></div></div></div>
+    <div class="modal" id="modal2"><div class="modal-content"><span class="close-button">&times;</span><h2>Apporio Super App</h2><p><strong>Overview:</strong> An all-in-one, multi-service platform that integrates various on-demand services like ride-hailing, food delivery, and more into a single, powerful user application. It's a complete ecosystem with dedicated apps for partners/providers and stores, enabling businesses to manage diverse offerings efficiently.</p><div class="modal-links"><a href="https://play.google.com/store/apps/details?id=com.apporio.superapp&hl=en_IN" target="_blank" class="modal-link-button">User App</a><a href="https://play.google.com/store/apps/details?id=com.apporio.allinoneprovider" target="_blank" class="modal-link-button">Partner App</a><a href="https://play.google.com/store/apps/details?id=com.apporio.resturanent&hl=en_IN" target="_blank" class="modal-link-button">Store App</a></div></div></div>
+    <div class="modal" id="modal3"><div class="modal-content"><span class="close-button">&times;</span><h2>iShapp</h2><p><strong>Overview:</strong> A social commerce platform that bridges the gap between social media and e-commerce. iShapp allows users to discover, share, and shop for products recommended by their network, creating a community-driven shopping experience. The platform includes both a mobile app and a corresponding website.</p><div class="modal-links"><a href="https://play.google.com/store/apps/details?id=com.ishapps.app&hl=en_IN" target="_blank" class="modal-link-button">Android App</a><a href="https://ishapps.com/" target="_blank" class="modal-link-button">Website</a></div></div></div>
+    <div class="modal" id="modal4"><div class="modal-content"><span class="close-button">&times;</span><h2>iLine.ai</h2><p><strong>Overview:</strong> A platform offering a suite of AI-powered solutions aimed at business process automation and enhancing customer interactions. iLine.ai provides innovative tools to help businesses streamline operations, improve efficiency, and leverage artificial intelligence for growth.</p><div class="modal-links"><a href="https://play.google.com/store/apps/developer?id=I-LINE.AI+SOLUTIONS+PVT+LTD&hl=en" target="_blank" class="modal-link-button">App Portfolio</a><a href="https://iline.ai/" target="_blank" class="modal-link-button">Website</a></div></div></div>
+    <div class="modal" id="modal5"><div class="modal-content"><span class="close-button">&times;</span><h2>Apporio Food Delivery</h2><p><strong>Overview:</strong> A dedicated, ready-to-launch food delivery application for restaurants and food-based businesses. This solution provides all the necessary features for customers to browse menus, place orders, and track deliveries in real-time, helping businesses establish a strong online presence.</p><div class="modal-links"><a href="https://play.google.com/store/apps/details?id=com.apporio.productfood&hl=en_IN" target="_blank" class="modal-link-button">User App</a></div></div></div>
+    <div class="modal" id="modal6"><div class="modal-content"><span class="close-button">&times;</span><h2>Apporio Grocery</h2><p><strong>Overview:</strong> A complete e-commerce solution for entrepreneurs looking to start their own online grocery store. The platform includes a user-friendly app for customers to shop for groceries, manage lists, and schedule deliveries, simplifying the online grocery shopping experience.</p><div class="modal-links"><a href="https://play.google.com/store/apps/details?id=com.apporio.productgrocery&hl=en_IN" target="_blank" class="modal-link-button">User App</a></div></div></div>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Rohit Sharma. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // This small script is for the mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+        });
+        // Close menu when a link is clicked
+        mobileMenu.addEventListener('click', (e) => {
+            if (e.target.tagName === 'A') {
+                mobileMenu.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
